@@ -1,6 +1,57 @@
 # Awesome Nodebots Built with Johnny-Five
 ----------------
 
+## Andrew Homeyer [@andrewhomeyer](https://twitter.com/andrewhomeyer), Matt Parrish [@mattparrish](https://twitter.com/mattparrish), Nicholas Boll [@nicholasboll](https://twitter.com/nicholasboll)
+
+- Missile Command: A rubber band launcher that took down a nodecopter
+    [video](http://youtu.be/0FAfu-Zowuo)
+    [code](https://github.com/homeyer/missile-command/)
+
+
+## Sara Gorecki [@opheliasdaisies] (https://twitter.com/opheliasdaisies)
+
+- A tri-color LED that cycles according to pressure sensor input.
+    [video](http://youtu.be/ePiiaja1CuI)
+    [code](https://github.com/opheliasdaisies/tri-color-led)
+
+
+## Rahul Ravikumar [@tikurahul](https://twitter.com/tikurahul), Bryan Hughes[@nebrius](https://twitter.com/nebrius)
+
+- Typing Bot (nodebots, jsconf)
+    [video](http://www.youtube.com/watch?v=kjTO2OkGnD8)
+
+
+## Raquel Vélez [@rockbot](https://twitter.com/rockbot)
+
+- Manny the Manipulator: A 2-dimensional serial manipulator using forward/inverse kinematics (via [vektor](https://github.com/rockbot/vektor))
+    [video](http://www.youtube.com/watch?v=JKumEFyOvuI)
+    [code](https://github.com/rockbot/vektor/tree/master/manipulator)
+
+
+## Travis Thieman [@thieman](https://twitter.com/thieman)
+
+- Power Glove (OS X Volume Control):
+    [video](http://www.youtube.com/watch?v=j1BimT0hPSQ)
+    [code](https://github.com/tthieman/arduino-projects/blob/master/hackathon_20130217/power_glove.js)
+
+
+## Francis Gulotta [@reconbot](https://twitter.com/reconbot)
+
+- Dorby the DoorBot
+    [video howto](http://www.youtube.com/watch?v=6VnSIbRAlFw)
+    [video servo operation](http://www.youtube.com/watch?v=gh7LtDA6EL0)
+    [code](https://github.com/reconbot/dorby)
+
+
+## Tim Walker [@timwalker2k](https://twitter.com/timwalker2k)
+
+- An experimental Theremin using a proximity sensor and JavaScript.
+    [code](https://github.com/twalker/sine5)
+
+- A build status light for use within a continuous integration workflow
+    [code](https://github.com/twalker/cilite)
+
+
 ## Kelly Korevec [@korevec](http://twitter.com/korevec)
 
 - Medibot
@@ -62,3 +113,4 @@
 
 - 6WD Rover
   [image](http://twitpic.com/a9t3rg)
+

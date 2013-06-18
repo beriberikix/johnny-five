@@ -3,9 +3,17 @@
 
   [ "Board" ],
     "board.js",
+    "board-with-port.js",
     "board-multi.js",
     "repl.js",
     "shiftregister.js",
+    "pin.js",
+    "pin-circuit-event.js",
+    "whisker.js",
+
+
+  [ "JSConf" ],
+    "nodebot.js",
 
 
   [ "Nodebots" ],
@@ -13,10 +21,12 @@
     "ed.js",
     "navigator.js",
     "radar.js",
+    "whisker.js",
 
 
   [ "Servo/Motor" ],
     "servo.js",
+    "servo-options.js",
     "servo-array.js",
     "servo-digital.js",
     "servo-dual.js",
@@ -107,5 +117,18 @@
     "sensor-slider.js",
     "slider-log.js",
     "slider-pan.js",
-    "slider-servo-control.js"
+    "slider-servo-control.js",
+
+  [ "TinkerKit" ],
+    "tinkerkit-blink.js",
+    "tinkerkit-button.js",
+    "tinkerkit-continuous-servo.js",
+    "tinkerkit-combo.js",
+    "tinkerkit-joystick.js",
+    "tinkerkit-linear-pot.js",
+    "tinkerkit-rotary.js",
+    "tinkerkit-thermistor.js",
+    "tinkerkit-tilt.js",
+    "tinkerkit-touch.js"
+
 ]

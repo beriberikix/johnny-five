@@ -3,45 +3,38 @@
 # Node-isassemble Johnny-Five
 
 
-### [Firmata](https://github.com/jgautier/firmata) & [SerialPort](https://github.com/voodootikigod/node-serialport) powered JavaScript Arduino programming framework.
+#### [Firmata](https://github.com/jgautier/firmata) & [SerialPort](https://github.com/voodootikigod/node-serialport) powered JavaScript Arduino programming framework.
 
-### Why JavaScript? [NodeBots: The Rise of JavaScript Robotics](http://www.voodootikigod.com/nodebots-the-rise-of-js-robotics)
+#### Why JavaScript? [NodeBots: The Rise of JavaScript Robotics](http://www.voodootikigod.com/nodebots-the-rise-of-js-robotics)
 
-### Johnny-Five artwork by [Mike Sgier](http://msgierillustration.com)
+#### Johnny-Five artwork by [Mike Sgier](http://msgierillustration.com)
 
 
 
 ## Many fragments. Some large, some small.
 
-
-### [Biped Nodebot](http://jsfiddle.net/rwaldron/WZkn5/show/light/) NEW!
-### [LCD Running Man](http://jsfiddle.net/rwaldron/xKwaU/show/light/) NEW!
-### [Slider Controlled Panning Servo](http://jsfiddle.net/rwaldron/kZakv/show/light/)
-### [Joystick Controlled Laser (pan/tilt) 1](http://jsfiddle.net/rwaldron/HPqms/show/light/)
-### [Joystick Controlled Laser (pan/tilt) 2](http://jsfiddle.net/rwaldron/YHb7A/show/light/)
-### [Joystick Controlled Claw](http://jsfiddle.net/rwaldron/6ZXFe/show/light/)
-### [Robot Claw](http://jsfiddle.net/rwaldron/CFSZJ/show/light/)
-### [Joystick, Motor & Led](http://jsfiddle.net/rwaldron/gADSz/show/light/)
+#### [Wireless Nodebot](http://jsfiddle.net/rwaldron/88M6b/show/light) NEW!
+#### [Kinect Controlled Robot Arm](http://jsfiddle.net/rwaldron/XMsGQ/show/light/) NEW!
+#### [Biped Nodebot](http://jsfiddle.net/rwaldron/WZkn5/show/light/)
+#### [LCD Running Man](http://jsfiddle.net/rwaldron/xKwaU/show/light/)
+#### [Slider Controlled Panning Servo](http://jsfiddle.net/rwaldron/kZakv/show/light/)
+#### [Joystick Controlled Laser (pan/tilt) 1](http://jsfiddle.net/rwaldron/HPqms/show/light/)
+#### [Joystick Controlled Laser (pan/tilt) 2](http://jsfiddle.net/rwaldron/YHb7A/show/light/)
+#### [Joystick Controlled Claw](http://jsfiddle.net/rwaldron/6ZXFe/show/light/)
+#### [Robot Claw](http://jsfiddle.net/rwaldron/CFSZJ/show/light/)
+#### [Joystick, Motor & Led](http://jsfiddle.net/rwaldron/gADSz/show/light/)
 
 
 
 ## Setup and Assemble Arduino
 
 - Recommended Starting Kit: [Sparkfun Inventor's Kit](https://www.sparkfun.com/products/11236)
-- Download Arduino IDE
-  - [OSX](http://arduino.googlecode.com/files/arduino-1.0-macosx.zip)
-  - [Linux 32 bit](http://arduino.googlecode.com/files/arduino-1.0-linux.tgz)
-  - [Linux 64 bit](http://arduino.googlecode.com/files/arduino-1.0-linux64.tgz)
-  - Windows support coming soon.
+- Download [Arduino IDE](http://arduino.cc/en/main/software)
 - Plug in your Arduino or Arduino compatible microcontroller via USB
 - Open the Arduino IDE, select: File > Examples > Firmata > StandardFirmata
-  - Make sure that the version of Firmata is [2.2](http://at.or.at/hans/pd/Firmata-2.2.zip). There are known issues with 2.3
 - Click the "Upload" button.
 
 If the upload was successful, the board is now prepared and you can close the Arduino IDE.
-
-
-**Attention** There is a known issue in where the Firmata protocol layer has issues freeing itself on the serial line which results in the program hanging in when it tries to connect. For now, the only way to get around the issue is to send a SIGINT ` ^C ` to kill the hanging program and simply run it again.
 
 
 ## Hey you, here's Johnny!
@@ -88,18 +81,27 @@ board.on("ready", function() {
 
 ### Board
 - [Board](https://github.com/rwldrn/johnny-five/blob/master/docs/board.md)
+- [Board With Port](https://github.com/rwldrn/johnny-five/blob/master/docs/board-with-port.md)
 - [Board Multi](https://github.com/rwldrn/johnny-five/blob/master/docs/board-multi.md)
 - [Repl](https://github.com/rwldrn/johnny-five/blob/master/docs/repl.md)
 - [Shiftregister](https://github.com/rwldrn/johnny-five/blob/master/docs/shiftregister.md)
+- [Pin](https://github.com/rwldrn/johnny-five/blob/master/docs/pin.md)
+- [Pin Circuit Event](https://github.com/rwldrn/johnny-five/blob/master/docs/pin-circuit-event.md)
+- [Whisker](https://github.com/rwldrn/johnny-five/blob/master/docs/whisker.md)
+
+### JSConf
+- [Nodebot](https://github.com/rwldrn/johnny-five/blob/master/docs/nodebot.md)
 
 ### Nodebots
 - [Bug](https://github.com/rwldrn/johnny-five/blob/master/docs/bug.md)
 - [Ed](https://github.com/rwldrn/johnny-five/blob/master/docs/ed.md)
 - [Navigator](https://github.com/rwldrn/johnny-five/blob/master/docs/navigator.md)
 - [Radar](https://github.com/rwldrn/johnny-five/blob/master/docs/radar.md)
+- [Whisker](https://github.com/rwldrn/johnny-five/blob/master/docs/whisker.md)
 
 ### Servo/Motor
 - [Servo](https://github.com/rwldrn/johnny-five/blob/master/docs/servo.md)
+- [Servo Options](https://github.com/rwldrn/johnny-five/blob/master/docs/servo-options.md)
 - [Servo Array](https://github.com/rwldrn/johnny-five/blob/master/docs/servo-array.md)
 - [Servo Digital](https://github.com/rwldrn/johnny-five/blob/master/docs/servo-digital.md)
 - [Servo Dual](https://github.com/rwldrn/johnny-five/blob/master/docs/servo-dual.md)
@@ -180,12 +182,24 @@ board.on("ready", function() {
 - [Slider Pan](https://github.com/rwldrn/johnny-five/blob/master/docs/slider-pan.md)
 - [Slider Servo Control](https://github.com/rwldrn/johnny-five/blob/master/docs/slider-servo-control.md)
 
+### TinkerKit
+- [Tinkerkit Blink](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-blink.md)
+- [Tinkerkit Button](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-button.md)
+- [Tinkerkit Continuous Servo](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-continuous-servo.md)
+- [Tinkerkit Combo](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-combo.md)
+- [Tinkerkit Joystick](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-joystick.md)
+- [Tinkerkit Linear Pot](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-linear-pot.md)
+- [Tinkerkit Rotary](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-rotary.md)
+- [Tinkerkit Thermistor](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-thermistor.md)
+- [Tinkerkit Tilt](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-tilt.md)
+- [Tinkerkit Touch](https://github.com/rwldrn/johnny-five/blob/master/docs/tinkerkit-touch.md)
+
 
 
 
 ## Contributing
 All contributions must adhere to the [Idiomatic.js Style Guide](https://github.com/rwldrn/idiomatic.js),
-by maintaining the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/cowboy/grunt).
+by maintaining the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
 
 ## Release History
 _(Nothing yet)_
